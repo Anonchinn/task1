@@ -11,7 +11,7 @@ services:
     depends_on:
       - mongodb
     environment:
-      MONGO_URL: "mongodb://your_username:your_password@mongodb:27017" # เมื่อเปลี่ยน username และ password ในบรรทัดที่ 30, 31 ให้เปลี่ยนตรงส่วน ^
+      MONGO_URL: "mongodb://task_username:task2@mongodb:27017" # เมื่อเปลี่ยน username และ password ในบรรทัดที่ 30, 31 ให้เปลี่ยนตรงส่วน ^
               #  "mongodb://      ^      :      ^      @mongodb:27017" # หลังจากนั้น ให้เปลี่ยน uri ที่ index.js บรรทัด 18
 
   # สร้าง container ของ mongodb
@@ -27,8 +27,8 @@ services:
 
     # กำหนด Username กับ password 
     environment:
-      MONGO_INITDB_ROOT_USERNAME: your_username
-      MONGO_INITDB_ROOT_PASSWORD: your_password
+      MONGO_INITDB_ROOT_USERNAME: task_username
+      MONGO_INITDB_ROOT_PASSWORD: task2
 
 # ถ้าต้องการเก็บข้อมูลไว้ต่อให้ compose ใหม่ก็ยังใช้ขอมูลเดิมให้นำ # 2 อันล่างนี้ออก
 # volumes:
