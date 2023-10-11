@@ -1,4 +1,4 @@
-# task1
+# task2
 วิธีใช้งาน
 
 npm install
