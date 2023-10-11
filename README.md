@@ -1,4 +1,10 @@
 # task1
+วิธีใช้งาน
+
+npm install
+docker-compose up เพื่อสร้าง Container
+docker-compose dow เพื่อลบ Container และลบ image ที่เชื่อมกับ Container หลัก
+# ทดสอบด้วย Postman
 
 # Express.js 
 กำหนดพอร์ตที่ 3000 เพื่อรอการร้องขอ HTTP
